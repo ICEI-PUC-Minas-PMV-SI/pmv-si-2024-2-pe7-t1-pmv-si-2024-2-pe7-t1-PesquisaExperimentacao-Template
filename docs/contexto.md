@@ -11,9 +11,9 @@ Diante desse cenário, propomos a análise de bases de dados para identificar fa
 
 ## Problema
 
-O crescente número de casos de diabetes tipo 2 e suas complicações evidenciam um problema crítico de saúde pública no Brasil, que envolve múltiplos fatores, desde a falta de conscientização e diagnóstico precoce até a adoção de hábitos de vida inadequados. As amputações de membros inferiores causadas pelo diabetes, que ocorrem a uma taxa alarmante, são apenas um exemplo das severas consequências dessa condição quando não controlada adequadamente. A ausência de intervenções preventivas e de um diagnóstico precoce limita a capacidade de resposta do sistema de saúde, resultando em um impacto considerável na qualidade de vida dos indivíduos afetados e em um aumento dos custos para o sistema de saúde.
+O aumento significativo dos casos de diabetes tipo 2 e suas complicações configura um grave problema de saúde pública no Brasil. Entre os desafios principais estão a falta de conscientização sobre a doença, o diagnóstico tardio e a prevalência de hábitos de vida não saudáveis. As amputações de membros inferiores relacionadas ao diabetes são uma consequência severa que reflete a inadequação no controle da condição.
 
-Diante desse cenário, é essencial realizar análises detalhadas de bases de dados e revisões de literatura especializada para identificar fatores que possam servir como indicadores de risco elevado para o diagnóstico de diabetes. Com isso, será possível desenvolver estratégias de prevenção e intervenção mais eficazes, contribuindo para a redução da incidência de novos casos, a minimização das complicações associadas e a promoção de uma melhor qualidade de vida para a população.
+A ausência de uma abordagem eficaz e preventiva, aliada ao diagnóstico tardio, compromete a capacidade de resposta do sistema de saúde, impactando a qualidade de vida dos pacientes e gerando altos custos para o sistema de saúde público.
 
 ## Questão de pesquisa
 
