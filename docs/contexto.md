@@ -18,7 +18,8 @@ A ausência de uma abordagem eficaz e preventiva, aliada ao diagnóstico tardio,
 ## Questão de pesquisa
 
  Quais são os principais fatores que contribuem para o desenvolvimento de diabetes no Brasil, e como esses fatores podem ser identificados para melhorar as estratégias de prevenção e intervenção? Além disso, como um formulário que identifica hábitos e sintomas comuns entre portadores de diabetes tipo 2 pode ser utilizado como uma ferramenta de alerta, ajudando os indivíduos a reconhecerem comportamentos de risco e a buscarem orientação médica para um possível diagnóstico precoce da doença?
- . Forma de mensurar questão 2: 
+ 
+ ### Forma de mensurar questão 2: 
  Para mensurar a eficácia do formulário que identifica hábitos e sintomas entre portadores de diabetes tipo 2, vamos realizar uma análise de frequência das respostas, correlacionando-as com dados clínicos relevantes, como por exemplo níveis de glicose no sangue.
 
 ## Objetivos preliminares
