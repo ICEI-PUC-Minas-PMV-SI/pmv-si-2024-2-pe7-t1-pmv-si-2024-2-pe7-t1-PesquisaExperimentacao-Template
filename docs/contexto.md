@@ -122,10 +122,25 @@ O [modelo do Canvas Analítico](https://github.com/ICEI-PUC-Minas-PMV-SI/Pesquis
 1. **Question:** Quais fatores clínicos são mais indicativos do risco de desenvolvimento de diabetes, e como podemos prever o risco de diabetes em indivíduos usando esses fatores?
 2. **Datasource:** O conjunto de dados "early_stage_diabetes_risk_prediction" é proveniente do Repositório de Aprendizado de Máquina UCSI, possúi muito parâmetros e a classificação se o paciente possui ou não diabetes, é um bom lugar para começar.
 3. **Heuristic:** Aplicação de modelos de machine learning para identificação dos atributos mais importantes para predição de risco de diabetes.
-4. **Validation:** Esperamos como resultado um modelo capaz de realizar previsão com base na base de dados já catalogada, será feito o treinamento em 70% da base e 30% será reservada para validação.
-5. **Implementation:** Os dados devem ser tratados e normalizados antes de qualquer análise, valores não preenchidos devem ser removidos ou completados baseados na sua relevância, em seguida a base de dados deverá ser separada para treino e validação. As diferentes técnicas planejadas utilizadas devem ser executadas e comparadas.
-6. **Results:** Gráficos e tabelas que mostram o desempenho dos modelos e a importância dos atributos
-7. **Next Steps:** O Aprimoramento do Modelo, considerando novos algoritmos, ajuste fino dos hiperparâmetros e inclusão de dados adicionais para melhorar a precisão e a robustez do modelo.
+  * Suspeita 1: A adesão ao tratamento é maior em pacientes com acompanhamento familiar frequente.
+  * Suspeita 2: A falta de adesão está associada à dificuldade de acesso aos medicamentos prescritos.
+  * Suspeita 3: Intervenções de suporte psicológico e educacional tendem a aumentar a adesão ao tratamento.
+5. **Validation:** Esperamos como resultado um modelo capaz de realizar previsão com base na base de dados já catalogada, será feito o treinamento em 70% da base e 30% será reservada para validação.
+6. **Implementation:** O trabalho será conduzido em etapas que envolvem  tratamento e análise de um dataset contendo informações sobre pacientes com diabetes. O dataset utilizado será composto por dados demográficos, clínicos e socioeconômicos, além de informações sobre frequência de consultas, adesão ao tratamento e resultados clínicos (como níveis de glicemia, pressão arterial, etc.).
+
+  Inicialmente, será feita uma limpeza e preparação dos dados para garantir sua qualidade e integridade. Em seguida, serão    aplicadas técnicas de análise exploratória de dados (EDA) para identificar padrões de comportamento e possíveis             correlações entre variáveis que possam influenciar a adesão ao tratamento.
+  
+  Modelos preditivos, como regressão logística e random forest, serão utilizados para avaliar quais fatores possuem maior     peso na adesão ou abandono do tratamento. Além disso, será realizada uma análise de clusters para segmentar os pacientes    com características similares, o que permitirá uma compreensão mais aprofundada dos diferentes perfis de adesão.
+7. **Results:**
+Com a análise dos dados, espera-se:
+
+Identificação dos principais fatores que influenciam a adesão: A análise de correlação e modelos preditivos devem revelar quais variáveis (como idade, região de residência, condições socioeconômicas e acesso a recursos de saúde) possuem maior impacto na adesão ao tratamento.
+
+Segmentação de perfis de pacientes: A análise de clusters possibilitará agrupar pacientes em segmentos distintos, possibilitando intervenções mais direcionadas e personalizadas para cada grupo.
+
+Modelagem preditiva de risco de abandono: Espera-se criar um modelo capaz de prever com precisão os casos de possível abandono do tratamento com base no perfil dos pacientes e na análise histórica do dataset. A meta é alcançar uma acurácia superior a 85% na predição.
+
+8. **Next Steps:** O Aprimoramento do Modelo, considerando novos algoritmos, ajuste fino dos hiperparâmetros e inclusão de dados adicionais para melhorar a precisão e a robustez do modelo.
 
 # Referências
 
