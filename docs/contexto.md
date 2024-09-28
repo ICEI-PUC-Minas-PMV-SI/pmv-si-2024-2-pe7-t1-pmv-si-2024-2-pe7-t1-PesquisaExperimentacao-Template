@@ -18,7 +18,8 @@ A ausência de uma abordagem eficaz e preventiva, aliada ao diagnóstico tardio,
 ## Questão de pesquisa
 
  Quais são os principais fatores que contribuem para o desenvolvimento de diabetes no Brasil, e como esses fatores podem ser identificados para melhorar as estratégias de prevenção e intervenção? Além disso, como um formulário que identifica hábitos e sintomas comuns entre portadores de diabetes tipo 2 pode ser utilizado como uma ferramenta de alerta, ajudando os indivíduos a reconhecerem comportamentos de risco e a buscarem orientação médica para um possível diagnóstico precoce da doença?
-
+ # Forma de mensurar questão 2: 
+ Para mensurar a eficácia do formulário que identifica hábitos e sintomas entre portadores de diabetes tipo 2, vamos realizar uma análise de frequência das respostas, correlacionando-as com dados clínicos relevantes, como por exemplo níveis de glicose no sangue.
 
 ## Objetivos preliminares
 
@@ -44,7 +45,7 @@ Com o avanço das técnicas de aprendizado de máquina e a crescente disponibili
 
 Este trabalho se propõe a criar um modelo preditivo para a previsão de diabetes, utilizando um conjunto de dados clínicos previamente coletados. Para fundamentar o desenvolvimento desse modelo, será realizada uma revisão da literatura com o objetivo de identificar abordagens já utilizadas para resolver problemas similares. A partir dessa revisão, pretende-se analisar diferentes técnicas, algoritmos, e métricas de avaliação, além de comparar os resultados obtidos, fornecendo uma base sólida para o desenvolvimento e aprimoramento do modelo proposto.
 
-### Predição de Óbitos em Pacientes com COVID-19 Utilizando Random Forest
+### Predição de Óbitos em Pacientes com COVID-19 Utilizando Random Forest (Referência [BJID](https://www.bjid.org.br/en-capacidade-preditiva-do-modelo-random-articulo-S1413867023001605))
 **(a) Detalhamento e Contextualização do Problema:** O estudo foi realizado durante a pandemia de COVID-19, com o objetivo de prever óbitos em pacientes diagnosticados com a doença. A pandemia trouxe desafios significativos para a saúde pública global, destacando a necessidade urgente de ferramentas preditivas para identificar pacientes em risco de morte e, assim, priorizar cuidados médicos.
 
 **(b) Descrição das Principais Características do Dataset Utilizado:** O estudo utilizou dados de 370.077 casos notificados no E-SUS VS do Espírito Santo, coletados entre janeiro de 2020 e outubro de 2022. O dataset foi dividido em dois conjuntos: 70% para treinamento e 30% para teste. Após o downsampling da classe majoritária (não óbito), o conjunto de treinamento foi reduzido para 7.766 amostras.
@@ -55,8 +56,10 @@ Este trabalho se propõe a criar um modelo preditivo para a previsão de diabete
 
 **(e) Resultados Obtidos:** O modelo apresentou um bom desempenho geral, com alta sensibilidade e especificidade, sendo eficaz na identificação de casos de não óbito. No entanto, o VPP foi baixo, indicando que a proporção de previsões corretas de óbito foi pequena, provavelmente devido ao desequilíbrio de classes. O VPN alto demonstrou que as previsões de não óbito eram altamente confiáveis. Apesar dos resultados positivos, o estudo sugere a necessidade de aprimoramento na precisão da previsão dos casos de óbito.
 
+**(f) Atributos:** Idade, sexo, tempo entre vacinação e o início dos sintomas.
 
-### Avaliação dos Parâmetros Hematológicos e Bioquímicos em Pacientes com Mieloma Múltiplo de Alto Risco
+
+### Avaliação dos Parâmetros Hematológicos e Bioquímicos em Pacientes com Mieloma Múltiplo de Alto Risco (Referência [ScienceDirect](https://www.sciencedirect.com/science/article/pii/S2531137923009707))
 **(a) Detalhamento e Contextualização do Problema:** O mieloma múltiplo (MM) é a segunda neoplasia hematológica mais frequente no mundo, caracterizada por sintomas como anemia e disfunção renal. Este estudo visa avaliar os dados laboratoriais de pacientes com MM de alto risco e comparar estatisticamente as diferenças entre os gêneros. A análise da relação entre gênero e alterações laboratoriais em pacientes com MM é crucial, pois pode fornecer insights sobre diferenças na progressão da doença e na resposta ao tratamento.
 
 **(b) Descrição das Principais Características do Dataset Utilizado:** O estudo é retrospectivo, descritivo e observacional, com dados laboratoriais coletados de 17 prontuários de pacientes diagnosticados com MM de alto risco, atendidos no Hospital Geral de Fortaleza entre 2022 e 2023. Os pacientes foram classificados como de alto risco segundo o International Staging System Revised (R-ISS). O dataset inclui parâmetros hematológicos (hemoglobina, contagem total de leucócitos, contagem de plaquetas, VCM, HCM e RDW) e bioquímicos (ureia e creatinina). A média de idade dos pacientes foi de 62,47 anos.
@@ -68,7 +71,7 @@ Este trabalho se propõe a criar um modelo preditivo para a previsão de diabete
 **(e) Resultados Obtidos:** Os resultados mostraram que não houve correlação significativa entre o gênero dos pacientes e as alterações nos parâmetros hematológicos e bioquímicos. As principais alterações incluíram uma diminuição na hemoglobina (94,12%) e um aumento no RDW (88,24%), com todos os pacientes apresentando níveis elevados de ureia e 82,36% com níveis elevados de creatinina. Esses achados sugerem que, apesar das diferenças conhecidas na prevalência e resposta ao tratamento entre homens e mulheres, as alterações laboratoriais não diferem significativamente entre os gêneros em pacientes com MM de alto risco.
 
 
-### Predição de baixo peso ao nascer utilizando modelos de machine learning
+### Predição de baixo peso ao nascer utilizando modelos de machine learning (Referência [SPSP.ORG](https://www.spsp.org.br/anais-do-congresso/predicao-de-baixo-peso-ao-nascer-com-modelos-de-machine-learning-um-avanco-significativo-na-saude-materno-infantil/))
 **(a) Detalhamento e Contextualização do Problema:** Dentre as principais causas de morte de recém-nascidos, a World Health Organization(WHO) destaca o Baixo Peso ao Nascer (BPN) como o fator isolado de predominância para a indução desse resultado negativo. A literatura apresenta modelos de machine learning como potenciais ferramentas para auxiliar os profissionais de saúde no prognóstico de diversas doençasda área materno-infantil.
 
 **(b) Descrição das Principais Características do Dataset Utilizado:** O estudo utilizou um conjunto de dados abertos do Sistema de Informações sobre Nascidos Vivos (SINASC), composto por 61 atributos e 400.157 registros, abrangendo os anos de 2018 a 2020, especificamente do estado de Pernambuco. Os atributos do dataset incluem uma variedade de informações relacionadas ao histórico materno, dados sociodemográficos materno-infantil, informações sobre o pré-natal, dados de residência da gestante, detalhes sobre a unidade de saúde, dados de atendimento, informações do recém-nascido, e datas informativas pessoais.
